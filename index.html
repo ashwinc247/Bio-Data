@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <link rel="icon" href="airport_sunset-widejj.jpg">
+</head>
+<body>
+    <marquee behavior="" direction="left" style="color: white;" >Hi.....</marquee>
+    
+    <form class="form">
+        
+        <div>
+    <h1>BIO DATA</h1>
+    <!--Name-->
+    <label for="">Name :</label>
+    <input type="text" placeholder="Name" required><br><br>
+
+    <label for="">Father's Name :</label>
+    <input type="text" name="" id="" placeholder="Enter the Name" required><br><br>
+
+    <label for="">Mother's Name :</label>
+    <input type="text" placeholder="Enter the Name" required><br><br>
+
+    <label for="">Age :</label>
+    <input type="number"  placeholder="Age" required><br><br>
+
+    <label for="">Blood Group :</label>
+    <input type="text"  placeholder="Type" required><br><br> 
+
+    <label for="Gender">Gender :</label>
+    <input type="radio" name="Gender" id="" required>
+    <label for="" name="Gender" class="male">Male</label>
+    <input type="radio" required>
+    <label for=" " >female</label><br><br>
+
+    <label for="">Address :</label>
+    <input type="text" name="" id="address" required><br><br>
+    <button class="submit">Submit</button></div>
+    </form>
+   
+
+
+
+</body>
+</html>
+<style>
+    *{
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body{
+        display: grid;
+        justify-content: center;
+        min-height: 100vh;
+        background-image: url(airport_sunset-widejj.jpg);
+        background-size: cover;
+        
+        
+    }
+    .form{
+        margin: 10px;
+        border: 1px;
+        border-color: rgb(255, 255, 255);
+        border-style: solid;
+        border-radius: 10px;
+        background-color: rgba(0, 255, 255, 0);
+        backdrop-filter: blur(5px);
+        height: 500px;
+        width: 500px;
+        justify-content: center;
+        display: flex;
+        
+    }
+    div{
+       
+       padding-left: 70px;
+    }
+    #address{
+        padding-bottom: 20px;
+    }
+    
+    video{
+        height: 200px;
+        width: 400px;
+        align-items: center;
+        border-radius: 10px;
+    }
+    label{
+        color: rgb(255, 255, 255);
+        width: 120px;
+        height: 10px;
+        display: inline-block;
+        
+    }
+    .submit{
+        margin: 30px 0px 0px 100px;
+        background-color: rgba(240, 248, 255, 0);
+        color: white;
+        border-color: white;
+        padding: 5px 20px 5px 20px;
+        border-radius: 20px;
+        border: 1px solid white;
+    }
+    .submit:hover{
+        background-color: white;
+        color: black;
+        cursor: pointer;
+        
+    }
+    input{
+        background-color: rgba(240, 248, 255, 0);
+        border-color: white;
+        color: white;
+        border-radius: 2px;
+        border-width: 1px;
+        border-style: solid;
+        text-align: center;
+    }
+    h1{
+        color: white;
+        padding-left: 70px;
+        font-family: Algerian;
+    }
+    .male{
+        display: inline;
+    }
+    
+</style>
